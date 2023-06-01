@@ -4,9 +4,11 @@ This repo is the official `Pytorch` implementation of the paper:
 
 **ManagerTower: Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning**
 
-[Xiao Xu*](http://ir.hit.edu.cn/~xxu/), [Bei Li](https://libeineu.github.io/), [Chenfei Wu](https://chenfei-wu.github.io/), [Shao-Yen Tseng](https://www.shaoyen.me/), [Anahita Bhiwandiwalla](https://scholar.google.com/citations?user=N-Qoq1gAAAAJ&hl=en), [Shachar Rosenman](https://scholar.google.com/citations?user=-8JzBBEAAAAJ&hl=en), [Vasudev Lal](https://scholar.google.com/citations?user=Qbu4oKwAAAAJ&hl=en), [Wanxiang Che](http://ir.hit.edu.cn/~car/), and [Nan Duan](https://nanduan.github.io/).
+[Xiao Xu](http://ir.hit.edu.cn/~xxu/), [Bei Li](https://libeineu.github.io/), [Chenfei Wu](https://chenfei-wu.github.io/), [Shao-Yen Tseng](https://www.shaoyen.me/), [Anahita Bhiwandiwalla](https://scholar.google.com/citations?user=N-Qoq1gAAAAJ&hl=en), [Shachar Rosenman](https://scholar.google.com/citations?user=-8JzBBEAAAAJ&hl=en), [Vasudev Lal](https://scholar.google.com/citations?user=Qbu4oKwAAAAJ&hl=en), [Wanxiang Che](http://ir.hit.edu.cn/~car/), [Nan Duan](https://nanduan.github.io/).
 
 [ACL 2023 (Oral)](https://2023.aclweb.org/) | Association for Computational Linguistics
+
+<!-- [Arxiv](https://arxiv.org/abs/2206.08657) -->
 
 ## Abstract
 
