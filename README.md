@@ -8,7 +8,7 @@ This repo is the official `Pytorch` implementation of the paper:
 
 [ACL 2023 (Oral)](https://2023.aclweb.org/) | Association for Computational Linguistics
 
-<!-- [Arxiv](https://arxiv.org/abs/2206.08657) -->
+[Arxiv](https://arxiv.org/abs/2306.00103)
 
 ## Abstract
 
@@ -95,7 +95,14 @@ bash scripts/ftfpt_base_flickr.sh
 ## Citation
 
 ```
-
+@misc{xu2023managertower,
+    title={ManagerTower: Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning},
+    author={Xiao Xu and Bei Li and Chenfei Wu and Shao-Yen Tseng and Anahita Bhiwandiwalla and Shachar Rosenman and Vasudev Lal and Wanxiang Che and Nan Duan},
+    year={2023},
+    eprint={2306.00103},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
 ```
 
 ## Acknowledgement
