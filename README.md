@@ -95,13 +95,11 @@ bash scripts/ftfpt_base_flickr.sh
 ## Citation
 
 ```
-@misc{xu2023managertower,
-    title={ManagerTower: Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning},
-    author={Xiao Xu and Bei Li and Chenfei Wu and Shao-Yen Tseng and Anahita Bhiwandiwalla and Shachar Rosenman and Vasudev Lal and Wanxiang Che and Nan Duan},
-    year={2023},
-    eprint={2306.00103},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@article{xu2023managertower,
+  title={ManagerTower: Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning},
+  author={Xu, Xiao and Li, Bei and Wu, Chenfei and Tseng, Shao-Yen and Bhiwandiwalla, Anahita and Rosenman, Shachar and Lal, Vasudev and Che, Wanxiang and Duan, Nan},
+  journal={arXiv preprint arXiv:2306.00103},
+  year={2023}
 }
 ```
 
