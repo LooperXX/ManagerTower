@@ -43,5 +43,3 @@ echo $RUN_NAME
 python run.py with run_name=$RUN_NAME task_finetune_irtr_itm_itc_f30k_clip_bert mt clip16 text_roberta $EXP_RGM num_gpus=8 num_nodes=$EXP_NODES load_path=./best_checkpoints/$EXP_LP image_size=$EXP_IS per_gpu_batchsize=$EXP_PGB per_gpu_eval_batchsize=$EXP_PGEB learning_rate=$EXP_LR batch_size=$EXP_BS max_epoch=$EXP_ME warmup_steps=$EXP_WS weight_decay=$EXP_WD lr_mult_head=$EXP_LMH lr_mult_cross_modal=$EXP_LMC task_head_layers=$EXP_THL head_hidden_scale=$EXP_HHS per_gpu_eval_batchsize_text=$EXP_PGEBT per_gpu_eval_batchsize_image=$EXP_PGEBI gather_all_inputs=$EXP_GAI gather_global_negative=$EXP_GGN gather_all_image_inputs=$EXP_GAII amp_flag=$EXP_AF image_chunks=$EXP_IC 
 
 date
-
-bash scripts/occupation.sh

@@ -29,5 +29,3 @@ echo $RUN_NAME
 python run.py with run_name=$RUN_NAME task_mlm_itm_clip_bert mt clip16 text_roberta $EXP_RGM data_root='./dataset/pre-train' num_gpus=8 num_nodes=8 image_size=$EXP_IS per_gpu_batchsize=$EXP_PGB per_gpu_eval_batchsize=$EXP_PGEB learning_rate=$EXP_LR
 
 date
-
-bash scripts/occupation.sh
