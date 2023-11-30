@@ -46,23 +46,14 @@ Two-Tower Vision-Language (VL) models have shown promising improvements on vario
 
 ## Checkpoints
 
-- [Pre-trained checkpoints on 4M data](https://chenfei.blob.core.windows.net/data/G/ManagerTower/best_checkpoints/ManagerTower_pt_base.ckpt?sv=2020-10-02&st=2023-05-31T03%3A43%3A27Z&se=2123-06-01T03%3A43%3A00Z&sr=b&sp=r&sig=SD8V1dubKJ6jOko8iQD69Rc0RrwOf8Cc5KMUWRKWNb8%3D)
-- Fine-tuned checkpoints for
-  - [Visual Question Answering on VQAv2](https://chenfei.blob.core.windows.net/data/G/ManagerTower/best_checkpoints/ManagerTower_ftfpt_base_vqav2.ckpt?sv=2020-10-02&st=2023-05-31T03%3A44%3A13Z&se=2123-06-01T03%3A44%3A00Z&sr=b&sp=r&sig=OTopHs3TIMfQyy8W9Ov5YudFPHOVnrjSmrxhDI9E9N8%3D)
-  - [Image-Text Retrieval on Flickr30k](https://chenfei.blob.core.windows.net/data/G/ManagerTower/best_checkpoints/ManagerTower_ftfpt_base_flickr30k.ckpt?sv=2020-10-02&st=2023-05-31T03%3A44%3A49Z&se=2123-06-01T03%3A44%3A00Z&sr=b&sp=r&sig=ZgWSDZ98yTGL%2FBDByWmHtRWec3BRIvUczndt3RRB7OQ%3D)
-  - [Visual Entailment on SNLI-VE](https://chenfei.blob.core.windows.net/data/G/ManagerTower/best_checkpoints/ManagerTower_ftfpt_base_snlive.ckpt?sv=2020-10-02&st=2023-05-31T03%3A45%3A38Z&se=2123-06-01T03%3A45%3A00Z&sr=b&sp=r&sig=NT%2BNCs85zu6S5S69KYTuoaJ6KYCu777IaX0bk6jblpU%3D)
-  - [Visual Reasoning on NLVR$^2$](https://chenfei.blob.core.windows.net/data/G/ManagerTower/best_checkpoints/ManagerTower_ftfpt_base_nlvr2.ckpt?sv=2020-10-02&st=2023-05-31T03%3A45%3A13Z&se=2123-06-01T03%3A45%3A00Z&sr=b&sp=r&sig=pvgiNo%2Ft2VMnaBICrFB3gr2dPZPMOm0eMe%2BIpiJABuo%3D)
-- Here is an example for downloading a checkpoint.
+We provide the following checkpoints for reproducing our results. You can download them from [here](https://huggingface.co/LooperXX/ManagerTower).
 
-  ```Shell
-  # download azcopy
-  wget https://aka.ms/downloadazcopy-v10-linux
-  tar -xvf downloadazcopy-v10-linux
-  sudo cp ./azcopy_linux_amd64_*/azcopy /usr/bin/
-  sudo chmod -R 777 /usr/bin/azcopy
-  # azcopy copy [remote path] [local path]
-  azcopy copy "https://chenfei.blob.core.windows.net/data/G/ManagerTower/best_checkpoints/ManagerTower_pt_base.ckpt?sv=2020-10-02&st=2023-05-31T03%3A43%3A27Z&se=2123-06-01T03%3A43%3A00Z&sr=b&sp=r&sig=SD8V1dubKJ6jOko8iQD69Rc0RrwOf8Cc5KMUWRKWNb8%3D" "./ManagerTower_pt_base.ckpt"
-  ```
+- [Pre-trained checkpoints on 4M data](https://huggingface.co/LooperXX/ManagerTower/blob/main/ManagerTower_pt_base.ckpt)
+- Fine-tuned checkpoints for
+  - [Visual Question Answering on VQAv2](https://huggingface.co/LooperXX/ManagerTower/blob/main/ManagerTower_ftfpt_base_vqav2.ckpt)
+  - [Image-Text Retrieval on Flickr30k](https://huggingface.co/LooperXX/ManagerTower/blob/main/ManagerTower_ftfpt_base_flickr30k.ckpt)
+  - [Visual Entailment on SNLI-VE](https://huggingface.co/LooperXX/ManagerTower/blob/main/ManagerTower_ftfpt_base_snlive.ckpt)
+  - [Visual Reasoning on NLVR$^2$](https://huggingface.co/LooperXX/ManagerTower/blob/main/ManagerTower_ftfpt_base_nlvr2.ckpt)
 
 ## Pre-training on Image-Text Datasets
 
