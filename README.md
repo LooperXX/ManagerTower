@@ -8,7 +8,7 @@ This repo is the official `Pytorch` implementation of the paper:
 
 [ACL 2023 (Oral)](https://2023.aclweb.org/) | Association for Computational Linguistics
 
-[Arxiv](https://arxiv.org/abs/2306.00103)
+[Paper](https://aclanthology.org/2023.acl-long.811/) | [Arxiv](https://arxiv.org/abs/2306.00103) | [Model](https://huggingface.co/LooperXX/ManagerTower) | [Slides](http://looperxx.github.io/files/ManagerTower-ACL23-PPT-2023-06-EN-12min.pdf) | [Video(EN)](https://youtu.be/SOHprfiiClQ) | [Video(CN)](https://www.bilibili.com/video/BV17s4y1y7Ny) | [Blog(CN)](http://looperxx.github.io/blog/ManagerTower) | [Tweet(EN)](https://twitter.com/looperxx27/status/1678341890809401346)
 
 ## Abstract
 
